@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.testmyalgo.extendedsearch.DisplayList">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item android:id="@+id/dlfV"
+        android:title="Filter out Valid" />
+    <item android:id="@+id/dlfI"
+        android:title="Filter out Invalid" />
+    <item android:id="@+id/dlfA"
+        android:title="Filter out Ambiguous" />
+</menu>
